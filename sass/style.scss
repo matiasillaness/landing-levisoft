@@ -8,6 +8,7 @@ $gris: #808080;
     padding: 0; }
 /* Landing Page */
 
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -120,3 +121,28 @@ body{
     font-weight: light;
     font-size: 15px;
 }
+
+//BOLUDECES MATIAS//
+
+ .section_4{
+    div{
+        background-color: black;   
+        color: antiquewhite;    
+        img{
+            width: 100%;
+            height: 60%;
+            filter: grayscale(100%);
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            h5{
+                color: $azul;
+            }
+        }
+    }
+} 
