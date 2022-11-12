@@ -2,25 +2,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+  font-family: 'Roboto', sans-serif; }
 
 /* Landing Page */
-body {
-  font-family: "Roboto", sans-serif;
-}
-
 .navbar-dark {
-  background-color: rgb(0, 0, 0);
-}
+  background-color: black; }
 
 .logo {
-  font-family: "Kanit", sans-serif;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: bolder;
-  font-size: 64px;
-  position: relative;
-  left: 100px;
-}
+  font-size: 57px;
+  margin-left: 40px; }
 
 .hero {
   display: flex;
@@ -31,22 +24,20 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  padding-left: 65px;
-}
+  height: 75vh; }
+  .hero .hero_texto_container {
+    margin: 0 0 50px 30px; }
 
 .slogan {
   font-size: 22px;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 .slogan_parrafo {
   font-size: 50px;
   font-weight: bold;
   margin: 0;
   padding: 0;
-  line-height: 1.2;
-}
+  line-height: 1.2; }
 
 .empezemos {
   border-radius: 35px;
@@ -57,96 +48,119 @@ body {
   font-size: 28px;
   font-weight: 500;
   color: white;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 /* seccion 2 */
 .card_container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  bottom: 148px;
-}
+  margin-top: -30%;
+  margin-bottom: 10px; }
 
 .card {
   width: 314px;
   height: 289px;
   margin: 24px 0;
-  text-align: center;
-}
+  text-align: center; }
 
 .card i {
-  margin: 20px 0;
-}
+  margin: 20px 0; }
 
 .titulo_card {
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 .fa-solid {
-  color: #0075FF;
-}
+  color: #0075FF; }
 
 .fa-regular {
-  color: #0075FF;
-}
+  color: #0075FF; }
 
 .parrafo_card {
   font-size: 14px;
-  color: #808080;
-}
+  color: #808080; }
 
 /* seccion 3 */
-.imgg_section3 {
-  position: relative;
-}
+.ssection_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/media/blurrystock-HIbAmybJHVs-unsplash.jpg");
+  height: 1280px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .ssection_3 .maincard_section3 {
+    margin: 20px 0; }
+  .ssection_3 .maincard2_section3 {
+    margin: 20px 0; }
+  .ssection_3 .maincard3_section3 {
+    margin: 20px 0; }
 
 .maincard_section3 {
+  height: 500px;
   background-color: white;
-  position: absolute;
-  top: 100px;
-  left: 77px;
-  width: 70%;
   opacity: 90%;
-  text-align: center;
-  padding: 80px;
-}
+  width: 300px; }
+  .maincard_section3 .titulo_section3_1 {
+    color: #0075FF;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    font-size: 19px; }
+  .maincard_section3 .titulo2_section3_1 {
+    font-weight: bold;
+    font-size: 25px; }
+  .maincard_section3 .parrafo_section3_1 {
+    font-size: 17px;
+    margin-top: 25px; }
+
+.maincard2_section3 {
+  height: 270px;
+  background-color: white;
+  opacity: 90%;
+  width: 300px; }
+
+.maincard3_section3 {
+  height: 270px;
+  background-color: white;
+  opacity: 90%;
+  width: 300px; }
+
+.maincard_section3_text {
+  margin-top: 50px;
+  padding: 0 20px; }
 
 .titulo_section3 {
   color: #0075FF;
   font-size: 17px;
-}
+  padding: 10px; }
 
 .titulo2_section3 {
   font-size: 22px;
   font-weight: bolder;
-}
+  padding: 10px; }
 
 .parrafo_section3 {
-  font-weight: light;
   font-size: 15px;
-}
+  padding: 10px;
+  color: #333333;
+  font-weight: light; }
 
 .section_4 div {
   background-color: black;
-  color: antiquewhite;
-}
-.section_4 div img {
-  width: 100%;
-  height: 60%;
-  filter: grayscale(100%);
-}
-.section_4 div div {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.section_4 div div h5 {
-  color: #0075FF;
-}
-
-/*# sourceMappingURL=style.css.map */
+  color: antiquewhite; }
+  .section_4 div img {
+    width: 100%;
+    height: 60%;
+    filter: grayscale(100%); }
+  .section_4 div div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .section_4 div div h5 {
+      color: #0075FF; }

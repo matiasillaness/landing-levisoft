@@ -5,13 +5,10 @@ $gris: #808080;
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0; }
-/* Landing Page */
-
-
-body{
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+/* Landing Page */
 
 .navbar-dark{
     background-color: rgb(0, 0, 0);
@@ -21,9 +18,8 @@ body{
     font-family: 'Kanit', sans-serif;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bolder;
-    font-size: 64px;
-    position: relative;
-    left: 100px;
+    font-size: 57px;
+    margin-left: 40px;
 }
 .hero{
     display: flex;
@@ -34,8 +30,10 @@ body{
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover; 
-    height: 100vh;
-    padding-left: 65px;
+    height: 75vh;
+    .hero_texto_container{
+        margin: 0 0 50px 30px;
+    }
 }
 .slogan{
     font-size: 22px;
@@ -60,15 +58,15 @@ body{
     margin-top: 10px;
 }
 
-
 /* seccion 2 */
 
 .card_container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    bottom: 148px;
+    margin-top: -30%;
+    margin-bottom: 10px;
+
 }
 .card{
     width: 314px;
@@ -95,31 +93,81 @@ body{
 
 /* seccion 3 */
 
-.imgg_section3{
-    position: relative;
+.ssection_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/media/blurrystock-HIbAmybJHVs-unsplash.jpg");
+    height: 1280px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    .maincard_section3{
+        margin: 20px 0;
+    }
+        .maincard2_section3{
+            margin: 20px 0;
+        }
+            .maincard3_section3{
+                margin: 20px 0;
+            }
+    }
+
+@mixin card_section3_propiedades(){
+    background-color: rgb(255, 255, 255);
+    opacity: 90%;
+    width: 300px;
 }
 
 .maincard_section3{
-    background-color: white;
-    position: absolute;
-    top: 100px;
-    left: 77px;
-    width: 70%;
-    opacity: 90%;
-    text-align: center;
-    padding: 80px;
+    height: 500px;
+    .titulo_section3_1{
+        color: $azul;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        margin-bottom: 15px;
+        font-size: 19px;
+    }
+    .titulo2_section3_1{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .parrafo_section3_1{
+        font-size: 17px;
+        margin-top: 25px;
+    }
+    @include card_section3_propiedades()
+}
+
+
+.maincard2_section3{
+    height: 270px;
+    @include card_section3_propiedades()
+}
+.maincard3_section3{
+    height: 270px;
+    @include card_section3_propiedades()
+}
+.maincard_section3_text{
+    margin-top: 50px;
+    padding: 0 20px;
 }
 .titulo_section3{
     color: $azul;
     font-size: 17px;
+    padding: 10px;
 }
 .titulo2_section3{
     font-size: 22px;
     font-weight: bolder;
+    padding: 10px;
 }
 .parrafo_section3{
-    font-weight: light;
     font-size: 15px;
+    padding: 10px;
+    color: #333333;
+    font-weight: light;
 }
 
 //BOLUDECES MATIAS//
