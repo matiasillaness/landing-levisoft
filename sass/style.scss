@@ -18,8 +18,7 @@ $gris: #808080;
     font-family: 'Kanit', sans-serif;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bolder;
-    font-size: 57px;
-    margin-left: 40px;
+    font-size: 40px;
 }
 .hero{
     display: flex;
@@ -98,7 +97,7 @@ $gris: #808080;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/media/blurrystock-HIbAmybJHVs-unsplash.jpg");
+    background-image: url("../media/blurrystock-HIbAmybJHVs-unsplash.jpg");
     height: 1280px;
     background-position: center; 
     background-repeat: no-repeat;
