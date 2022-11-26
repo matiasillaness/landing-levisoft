@@ -171,7 +171,7 @@ $gris: #808080;
 
 //BOLUDECES MATIAS//
 
- .section_4{
+.section_4{
     div{
         background-color: black;   
         color: antiquewhite;    
@@ -193,3 +193,53 @@ $gris: #808080;
         }
     }
 } 
+.section_6{
+    height: 459px;
+    background-image: url("/media/blake-connally-IKUYGCFmfw4-unsplash.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frame_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border: 3px solid white;
+    width: 368px;
+    height: 409px;
+    text-align: center;
+}
+.titulo_section6{
+    color: $azul;
+    font-size: 17px;
+}
+.parrafo_section6{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+.contacto{
+    height: 1200px;   
+}
+.img_contacto{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url("/media/contact/thomas-lefebvre-gp8BLyaTaA0-unsplash.jpg");       
+    background-size: 100% 100%;
+}
+.titulo_contacto{
+    font-size: 30px;
+    color: white;
+}
