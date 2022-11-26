@@ -209,3 +209,44 @@
 .titulo_contacto {
   font-size: 30px;
   color: white; }
+
+.parrafo_contacto {
+  font-size: 25px;
+  margin-top: 16px; }
+
+.contact_form {
+  height: 340px; }
+
+.inputs_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.input_contact {
+  width: 70%;
+  margin: 10px 0;
+  border: 1px solid grey; }
+
+.boton_wrapper {
+  display: flex;
+  width: 100%; }
+
+.info_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 40px 0; }
+
+.info_tipo_container {
+  margin: 0 20px;
+  line-height: 9px; }
+
+.info_tipo {
+  color: #0075FF;
+  font-size: 14px; }
+
+.info_parrafo {
+  font-size: 18px; }
