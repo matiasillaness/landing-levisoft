@@ -264,7 +264,7 @@ footer{
       
         .preguntas { grid-area: preguntas; }
       
-        .contacto { grid-area: contacto; }
+        .contactoo { grid-area: contacto; }
 
         p{
             font-weight: 100;
@@ -313,7 +313,8 @@ footer{
 
 .section_6{
     height: 459px;
-    background-image: url("../media/blake-connally-IKUYGCFmfw4-unsplash.jpg");
+    background: linear-gradient(rgba(5, 7, 12, 1), rgba(5, 7, 12,1)),
+    url("../media/technology-users-email-lists.jpg");
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -351,12 +352,14 @@ footer{
 }
 .img_contacto{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    text-align: center;
     height: 400px;
     background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url("/media/contact/thomas-lefebvre-gp8BLyaTaA0-unsplash.jpg");       
+    url("../media/thisisengineering-raeng-sCgQPQZAeO4-unsplash.jpg");       
     background-size: 100% 100%;
 }
+
 .titulo_contacto{
     font-size: 30px;
     color: white;
