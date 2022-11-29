@@ -308,3 +308,127 @@ footer{
        margin-top: 20px;
     }
 }
+
+//levi
+
+.section_6{
+    height: 459px;
+    background-image: url("../media/blake-connally-IKUYGCFmfw4-unsplash.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frame_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border: 3px solid white;
+    width: 368px;
+    height: 409px;
+    text-align: center;
+}
+.titulo_section6{
+    color: $azul;
+    font-size: 17px;
+}
+.parrafo_section6{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+.contacto{
+    height: 1200px;   
+}
+.img_contacto{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url("/media/contact/thomas-lefebvre-gp8BLyaTaA0-unsplash.jpg");       
+    background-size: 100% 100%;
+}
+.titulo_contacto{
+    font-size: 30px;
+    color: white;
+}
+
+.parrafo_contacto{
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 24px;
+    padding: 0 30px;
+    color:rgb(39, 38, 38)
+}
+
+.contact_form{
+    height: 340px;
+}
+
+.inputs_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input_contact{
+    width: 85%;
+    margin: 10px 0;
+    border: 1px solid #afafaf;
+}
+.input_data{
+    height: 40px;
+}
+.input_texto{
+    height: 100px;
+}
+::placeholder {
+    font-size: 14px;
+}
+.boton_wrapper{
+    display: flex;
+    width: 85%;
+    justify-content: flex-end;
+}
+.boton_wrapper button{
+    color: white;
+    background-color: #0A0A0A;
+    width: 80px;
+    height: 40px;
+    border: none;
+    font-size: 13px;
+}
+
+.info_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 40px 0;
+}
+
+.info_tipo_container{
+    margin: 0 20px;
+    line-height: 9px;
+}
+
+
+.info_tipo{
+    color: $azul;
+    font-size: 14px;
+}
+.info_parrafo{
+    font-size: 18px;
+
+}
