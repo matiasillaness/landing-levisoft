@@ -1,0 +1,91 @@
+$azul: #0075FF;
+$gris: #808080;
+
+.contacto{
+    height: 1100px;   
+}
+.img_contacto{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url("../media/thisisengineering-raeng-sCgQPQZAeO4-unsplash.jpg");       
+    background-size: 100% 100%;
+}
+
+.titulo_contacto{
+    font-size: 30px;
+    color: white;
+}
+
+.parrafo_contacto{
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 24px;
+    padding: 0 30px;
+    color:rgb(39, 38, 38)
+}
+
+.contact_form{
+    height: 340px;
+}
+
+.inputs_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input_contact{
+    width: 85%;
+    margin: 10px 0;
+    border: 1px solid #afafaf;
+}
+.input_data{
+    height: 40px;
+}
+.input_texto{
+    height: 100px;
+}
+::placeholder {
+    font-size: 14px;
+}
+.boton_wrapper{
+    display: flex;
+    width: 85%;
+    justify-content: flex-end;
+}
+.boton_wrapper button{
+    color: white;
+    background-color: #0A0A0A;
+    width: 80px;
+    height: 40px;
+    border: none;
+    font-size: 13px;
+}
+
+.info_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 40px 0;
+}
+
+.info_tipo_container{
+    margin: 0 20px;
+    line-height: 9px;
+}
+
+
+.info_tipo{
+    color: $azul;
+    font-size: 14px;
+}
+.info_parrafo{
+    font-size: 18px;
+
+}

@@ -1,0 +1,33 @@
+$azul: #0075FF;
+$gris: #808080;
+
+.section_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30%;
+    margin-bottom: 10px;
+
+}
+.card{
+    width: 314px;
+    height: 289px;
+    margin: 24px 0;
+    text-align: center;
+}
+.card i{
+    margin: 20px 0;
+}
+.titulo_card{
+    font-size: 18px;
+}
+.fa-solid{
+    color: $azul;
+}
+.fa-regular{
+    color: $azul;
+}
+.parrafo_card{
+    font-size: 14px;
+    color: $gris;
+}
