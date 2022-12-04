@@ -2,12 +2,11 @@ $azul: #0075FF;
 $gris: #808080;
 
 .contacto{
-    height: 1100px;   
+    height: 1035px;   
 }
 .img_contacto{
     display: flex;
     align-items: center;
-    text-align: center;
     height: 400px;
     background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
     url("../media/thisisengineering-raeng-sCgQPQZAeO4-unsplash.jpg");       
@@ -15,16 +14,22 @@ $gris: #808080;
 }
 
 .titulo_contacto{
-    font-size: 30px;
+    font-size: 40px;
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    margin-left: 20px;
 }
 
 .parrafo_contacto{
     font-size: 25px;
     margin: 0px;
-    margin-top: 24px;
+    margin: 24px 0;
     padding: 0 30px;
-    color:rgb(39, 38, 38)
+    color:rgb(39, 38, 38);
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
 }
 
 .contact_form{
@@ -71,7 +76,6 @@ $gris: #808080;
     justify-content: center;
     margin-top: 150px;
     border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
     padding: 40px 0;
 }
 

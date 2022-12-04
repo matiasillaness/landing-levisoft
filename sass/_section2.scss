@@ -5,29 +5,69 @@ $gris: #808080;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 1370px;
     margin-top: -30%;
     margin-bottom: 10px;
+    
+    .card{
+        width: 314px;
+        height: 289px;
+        margin: 24px 0;
+        text-align: center;
+        background-color: white;
+        border: 1px solid #bdbdbd;
+        i{
+            margin: 20px 0;
+            color: $azul;
+        }
+        .titulo_card{
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 18px;
+        }
+        .parrafo_card{
+            font-style: italic;
+            font-size: 16px;
+            color: $gris;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 28.8px;
+        }
+    }    
+}
 
-}
-.card{
-    width: 314px;
-    height: 289px;
-    margin: 24px 0;
-    text-align: center;
-}
-.card i{
-    margin: 20px 0;
-}
-.titulo_card{
-    font-size: 18px;
-}
-.fa-solid{
-    color: $azul;
-}
-.fa-regular{
-    color: $azul;
-}
-.parrafo_card{
-    font-size: 14px;
-    color: $gris;
+
+@media (min-width: 1400px){ 
+    .section_2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 330px;
+        margin: 0;
+        
+        .card{
+            width: 260px;
+            height: 380px;
+            margin: 0 15px 130px 15px;
+            text-align: center;
+            background-color: white;
+            padding: 15px 30px 15px 30px;
+            i{
+                
+                color: $azul;
+            }
+            .titulo_card{
+                font-size: 18px;
+                font-weight: 600;
+    
+            }
+            .parrafo_card{
+                font-style: italic;
+                font-size: 16px;
+                color: $gris;
+                font-family: 'Open Sans', sans-serif;
+                padding-bottom: 30px;
+            }
+        }    
+    }
 }

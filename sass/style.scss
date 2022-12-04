@@ -1,3 +1,4 @@
+@import "header";
 @import "section2";
 @import "section3";
 @import "section4";
@@ -17,24 +18,15 @@ $gris: #808080;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-/* Landing Page */
 
-.navbar-dark{
-    background-color: rgb(0, 0, 0);
-}
 
-.logo{
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: bolder;
-    font-size: 40px;
-}
 .hero{
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
     background-image: url(../media/landingimage.png);
+    /* background-image: url("../media/blake-connally-IKUYGCFmfw4-unsplash.jpg"); */
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -66,16 +58,20 @@ $gris: #808080;
     margin-top: 10px;
 }
 
-
-
-
-
-.section_7{
-    background-color:rgb(0, 0, 0);
-    color: rgb(247, 244, 239);
+@media (min-width: 1400px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        background-image: url(../media/landingimage.png);
+        /* background-image: url("../media/blake-connally-IKUYGCFmfw4-unsplash.jpg"); */
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        height: 90vh;
+        .hero_texto_container{
+            margin: 0 0 50px 30px;
+        }
+    }
 }
-
-//levi
-
-
-

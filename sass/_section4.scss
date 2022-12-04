@@ -33,7 +33,52 @@ $gris: #808080;
                 font-size: 14px;
                 line-height: 25.2px;
                 color: #808080;
+                font-family: 'Open Sans', sans-serif;
+                font-style: italic;
             }
         }
     }
 } 
+
+@media (min-width: 1400px){
+    .section_4{
+        display: flex;
+        div{
+            display: flex;
+            div{
+                display: flex;
+                flex-direction: column;
+                height: 345px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                padding-left: 20px;
+                h5{
+                    color: $azul;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                h4{
+                    margin-top: 14px;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                p{
+                    margin-top: 20px;
+                    font-size: 14px;
+                    line-height: 25.2px;
+                    color: #808080;
+                    font-family: 'Open Sans', sans-serif;
+                    font-style: italic;
+                }
+        }
+        
+    }
+
+
+
+
+
+
+
+}
+}

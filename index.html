@@ -13,29 +13,33 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand logo" href="#">Levi<span style="color: #0075FF">Soft</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="#">XXX</a>
-                    <a class="nav-link" href="#">TESTIMONIOS</a>
-                    <!-- <a class="navbar-brand" href="#">LeviSoft</a> -->
-                    <a class="nav-link" href="#">PREGUNTAS</a>
-                    <a class="nav-link" href="#">CONTACTO</a>
-                </div>
-            </div>
-        </div>
+<header class="header">
+    <nav class="nav">
+        <a href="#" class="logo nav-link">Levi<span style="color: #0075FF">Soft</span></a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu ">
+            <li class="nav-menu-item">
+                <a href="#" class="nav-menu-link nav-link">UNO</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="#" class="nav-menu-link nav-link">DOS</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="#" class="nav-menu-link nav-link">TRES</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="#" class="nav-menu-link nav-link nav-menu-link_active">CUATRO</a>
+            </li>
+        </ul>
     </nav>
 </header>
 
@@ -54,19 +58,25 @@
 
     <section class="section_2">
         <div class="card">
-            <i class="fa-solid fa-file fa-5x documento_icono"></i>
+            <i class="fa-solid fa-pencil fa-5x"></i>
+            <p class="titulo_card">Diseños personalizados</p>
+            <p class="parrafo_card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate suscipit sed,
+                minima quis cupiditate debitis.</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-file fa-5x"></i>
             <p class="titulo_card">Documentación completa</p>
             <p class="parrafo_card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate suscipit sed,
                 minima quis cupiditate debitis.</p>
         </div>
         <div class="card">
-            <i class="fa-solid fa-hand-holding-dollar fa-5x mano_icono"></i>
+            <i class="fa-solid fa-hand-holding-dollar fa-5x"></i>
             <p class="titulo_card">Precios razonables</p>
             <p class="parrafo_card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate suscipit sed,
                 minima quis cupiditate debitis.</p>
         </div>
         <div class="card">
-            <i class="fa-solid fa-face-laugh-beam fa-5x cara_icono"></i>
+            <i class="fa-solid fa-face-laugh-beam fa-5x"></i>
             <p class="titulo_card">Clientes felices</p>
             <p class="parrafo_card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate suscipit sed,
                 minima quis cupiditate debitis.</p>
@@ -74,37 +84,40 @@
     </section>
 
     <section class="section_3">
-        <div class="maincard_section3">
-            <div class="maincard_section3_text">
-                <h2 class="titulo_section3_1">Tu oportunidad especial para tener tu sitio web.</h2>
-                <p class="titulo2_section3_1">Simple, barato,<br> perfecto.<br></p>
-                <p class="parrafo_section3_1">Te venimos a traer una oferta especial para que tengas un sitio web
-                    perfecto
-                    para tu emprendimiento y/o marca personal. Trabajamos con tecnologia de ultima generacion y
-                    actualizados al mercado.</p>
+        <div class="section3_grid">
+            <div class="maincard_section3">
+                <div class="maincard_section3_text">
+                    <h2>Tu oportunidad especial para tener tu sitio web.</h2>
+                    <p class="titulo2_section3_1">Simple, barato,<br> perfecto.<br></p>
+                    <p class="parrafo_section3_1">Te venimos a traer una oferta especial para que tengas un sitio web
+                        perfecto
+                        para tu emprendimiento y/o marca personal. Trabajamos con tecnologia de ultima generacion y
+                        actualizados al mercado.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="maincard2_section3">
-            <div class="maincard_section3_text">
-                <p class="titulo2_section3">Soluciones creativas</p>
-                <p class="parrafo_section3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, natus
-                    iste!</p>
+            <div class="maincard2_section3">
+                <div class="maincard_section3_text">
+                    <p class="titulo2_section3">Soluciones creativas</p>
+                    <p class="parrafo_section3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias,
+                        natus
+                        iste!</p>
+                </div>
             </div>
-        </div>
 
-        <div class="maincard3_section3">
-            <div class="maincard_section3_text">
-                <p class="titulo2_section3">Codigo limpio</p>
-                <p class="parrafo_section3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, natus
-                    iste!</p>
+            <div class="maincard3_section3">
+                <div class="maincard_section3_text">
+                    <p class="titulo2_section3">Codigo limpio</p>
+                    <p class="parrafo_section3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias,
+                        natus
+                        iste!</p>
+                </div>
             </div>
         </div>
     </section>
 
 
     <section class="section_4">
-        <!-- MATIAS -->
         <div>
             <img src="./media/paul-calescu-KW3m50XRhjk-unsplash.jpg" alt="">
             <div>
@@ -113,7 +126,6 @@
                     y prometedor</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo quia facilis quos
                     molestiae est delectus cupiditate aperiam dicta!</p>
-                <a href="">more</a>
             </div>
         </div>
 
@@ -124,7 +136,6 @@
                 <h4>Somos un equipo joven y prometedor</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo quia facilis quos
                     molestiae est delectus cupiditate aperiam dicta!</p>
-                <a href="">more</a>
             </div>
         </div>
     </section>
@@ -135,9 +146,9 @@
                 <h5>Una mirada a nuestros proyectos para inspirarte!</h5>
                 <h2>Interfaz de usuario facil de entender, delicada y personalizada para vos</h2>
                 <div class="proyectos_wrapper">
-                    <img src="./media/prueba.png" alt="">
-                    <img src="./media/prueba.png" alt="">
-                    <img src="./media/prueba.png" alt="">
+                    <img class="proyecto1"src="./media/section5/1.png" alt="">
+                    <img class="proyecto2"src="./media/section5/2.png" alt="">
+                    <img class="proyecto3"src="./media/section5/3.png" alt="">
                 </div>
             </div>
             <div class="lista_wrapper">
@@ -166,7 +177,8 @@
     </section>
     <section class="contacto">
         <div class="img_contacto">
-            <p class="titulo_contacto">Nos encanta conocer gente nueva</p>
+            <p class="titulo_contacto">Nos encanta conocer <br>
+                gente nueva</p>
         </div>
 
 
@@ -250,9 +262,7 @@
 
 
 
-
-
-
+    <script src="./javascript/main.js"></script>
     <script src="https://kit.fontawesome.com/88e08c43fb.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
