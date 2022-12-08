@@ -142,27 +142,31 @@
 
     <section class="section_5">
         <div>
-            <div>
+            <div class="section5_dos">
                 <h5>Una mirada a nuestros proyectos para inspirarte!</h5>
                 <h2>Interfaz de usuario facil de entender, delicada y personalizada para vos</h2>
                 <div class="proyectos_wrapper">
-                    <img class="proyecto1"src="./media/section5/1.png" alt="">
-                    <img class="proyecto2"src="./media/section5/2.png" alt="">
-                    <img class="proyecto3"src="./media/section5/3.png" alt="">
+                    <img class="proyecto1" src="./media/section5/1.png" alt="">
+                    <img class="proyecto2" src="./media/section5/2.png" alt="">
+                    <img class="proyecto3" src="./media/section5/3.png" alt="">
                 </div>
             </div>
             <div class="lista_wrapper">
-                <h1>Valores y características</h1>
-                <h3>¿Por qué nos elegis?</h3>
-                <ol class="lista_section5">
-                    <li>Interfaz de usuario hermosa y fácil de entender, animaciones profesionales</li>
-                    <li>Diseño perfecto y entrega de código claro</li>
-                    <li>Presenta tus servicios con flexibleu a massa</li>
-                    <li>Encuentre más ideas creativas para sus proyectos</li>
-                    <li>Poder ilimitado y posibilidades de personalización</li>
-                </ol>
+                <div>
+                    <h1>Valores y características</h1>
+                    <h3>¿Por qué nos elegis?</h3>
+                    <ol class="lista_section5">
+                        <li>Interfaz de usuario hermosa y fácil de entender, animaciones profesionales</li>
+                        <li>Diseño perfecto y entrega de código claro</li>
+                        <li>Presenta tus servicios con flexibleu a massa</li>
+                        <li>Encuentre más ideas creativas para sus proyectos</li>
+                        <li>Poder ilimitado y posibilidades de personalización</li>
+                    </ol>
+                </div>
+                <div class="section5_image_container">
+                    <img src="./media/section5/e9ef3d8ce1c247c217f1f02fa46cfd1a.png">
+                </div>
             </div>
-
         </div>
     </section>
 
@@ -175,32 +179,53 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
     <section class="contacto">
-        <div class="img_contacto">
-            <p class="titulo_contacto">Nos encanta conocer <br>
-                gente nueva</p>
-        </div>
-
-
-
-        <div class="contact_form">
-            <div>
-                <p class="parrafo_contacto">Siempre estamos en la busqueda de clientes y grandes proyectos, si te
-                    gustaria trabajar con nosotros, ponete en contacto!</p>
+        <div class="contacto_container">
+            <div class="img_contacto">
+                <img src="./media/thisisengineering-raeng-sCgQPQZAeO4-unsplash.jpg">
             </div>
-            <fieldset class="inputs_wrapper">
-                <input class="input_contact input_data" type="text" name="nombre" placeholder="NOMBRE COMPLETO"
-                    required>
-                <input class="input_contact input_data" type="email" name="email" placeholder="EMAIL" required>
-                <textarea class="input_contact input_texto" type="text" name="texto" placeholder="MENSAJE"
-                    required></textarea>
-                <div class="boton_wrapper">
-                    <button type="submit">ENVIAR</button>
+
+            <div class="contact_form">
+                <div class="text_wrapper">
+                    <h2>Nos encanta conocer
+                        gente nueva</h2>
+                    <p>Siempre estamos en la busqueda de clientes y grandes proyectos, si te
+                        gustaria trabajar con nosotros, ponete en contacto!</p>
                 </div>
-            </fieldset>
+
+                <fieldset class="inputs_wrapper">
+
+                    <div class="input_wrapper">
+                        <p>Nombre</p>
+                        <input class="input_contact input_data" type="text" name="nombre" placeholder="Ingresa tu nombre"
+                            required>
+                    </div>
+
+                    <div class="input_wrapper">
+                        <p>Email</p>
+                        <input class="input_contact input_data" type="email" name="email" placeholder="Ingresa tu mail" required>
+                    </div>
+
+                    <div>
+                        <p>Mensaje</p>
+                        <textarea class="input_contact input_texto" type="text" name="texto"required></textarea>
+                    </div>
+
+                    <button type="submit">ENVIAR</button>
+
+                </fieldset>
+            </div>
+
         </div>
 
-        <div class="info_container">
+    <!--     <div class="info_container">
             <div class="info_tipo_container">
                 <p class="info_tipo">TELEFONO</p>
                 <p class="info_parrafo">+54 9999 9999</p>
@@ -209,7 +234,14 @@
                 <p class="info_tipo">MENSAJE DIRECTO</p>
                 <p class="info_parrafo">levisoftt@gmail.com</p>
             </div>
-        </div>
+        </div> -->
+        <article class="cards_container">
+            <div>
+                <div class="contact_cards"></div>
+                <div class="contact_cards"></div>
+                <div class="contact_cards"></div>
+            </div>
+        </article>
 
     </section>
 

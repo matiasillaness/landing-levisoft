@@ -107,3 +107,99 @@ footer {
         margin-top: 20px;
     }
 }
+
+@media (min-width: 1400px){
+    footer {
+        padding: 60px 0 30px 0;
+        background-color: #111111;
+        /* background-color: #333333; */
+        color: rgb(249, 246, 242);
+        .section_wrapper{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+        .levisoft {
+            display: flex;
+            flex-direction: column;
+            text-align:start;
+            padding-bottom: 15px;
+            width: 28%;
+    
+            h2 {
+                font-size: 25px;
+                font-weight: bold;
+            }
+    
+            p {
+                font-size: 15px;
+                font-weight: 400;
+                margin-bottom: 32px;
+            }
+        }
+    
+        .grid__footer {
+            justify-content: center;
+            text-align: left;
+            display: grid;
+            margin-bottom: 20px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-auto-columns: 1fr;
+            gap: 0px 240px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "inicio servicios proyectos contacto"
+                "inicio nosotros  preguntas contacto";
+
+            div{
+                margin: 5px 0;
+            }
+            a{
+                font-weight: 400;
+                font-size: 20px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    
+        .line-footer {
+            display: block;
+            margin: auto;
+            background-color: rgb(168, 168, 168);
+            width: 90.5%;
+            height: 0.5px;
+        }
+    
+        .socials {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 100px;
+    
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 32px;
+                height: 32px;
+                border: solid 1px white;
+                border-radius: 400px;
+    
+                i {
+                    font-size: 16px;
+                }
+            }
+        }
+    
+        h5 {
+            text-align: center;
+            margin: 0;
+            font-weight: 300;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+    }
+    
+
+}
