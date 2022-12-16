@@ -18,9 +18,46 @@ $gris: #808080;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+div,
+section,
+article,
+footer,
+header,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+details,
+blockquote,
+pre,
+figure,
+table,
+address,
+hr,
+fieldset,
+iframe,
+audio,
+video,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
 
 
-.hero{
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,25 +65,29 @@ $gris: #808080;
     background-image: url(../media/landingimage.png);
     /* background-image: url("../media/blake-connally-IKUYGCFmfw4-unsplash.jpg"); */
     background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 75vh;
-    .hero_texto_container{
+
+    .hero_texto_container {
         margin: 0 0 50px 30px;
     }
 }
-.slogan{
+
+.slogan {
     font-size: 22px;
     font-weight: 700;
 }
-.slogan_parrafo{
+
+.slogan_parrafo {
     font-size: 50px;
     font-weight: bold;
     margin: 0;
     padding: 0;
     line-height: 1.2;
 }
-.empezemos{
+
+.empezemos {
     border-radius: 35px;
     width: 234px;
     background-color: rgba(152, 151, 151, 0.699);
@@ -58,8 +99,8 @@ $gris: #808080;
     margin-top: 10px;
 }
 
-@media (min-width: 1400px){
-    .hero{
+@media (min-width: 1400px) {
+    .hero {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -67,10 +108,11 @@ $gris: #808080;
         background-image: url(../media/landingimage.png);
         /* background-image: url("../media/blake-connally-IKUYGCFmfw4-unsplash.jpg"); */
         background-position: center;
-        background-repeat: no-repeat; 
-        background-size: cover; 
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 90vh;
-        .hero_texto_container{
+
+        .hero_texto_container {
             margin: 0 0 50px 30px;
         }
     }

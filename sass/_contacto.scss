@@ -1,6 +1,13 @@
 $azul: #0075FF;
 $gris: #808080;
 
+
+/* *:focus {
+    outline: none;
+}
+ */
+
+
 .contacto{
     height: 100%;   
 }
@@ -48,6 +55,11 @@ $gris: #808080;
             margin: 15px 0;
             border: none;
             border-bottom: 2px solid #afafaf;
+            background-color: transparent;   
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            outline: none;
             }
         }
         textarea{
@@ -55,6 +67,7 @@ $gris: #808080;
             border: none;
             border-bottom: 2px solid #afafaf;
             height: 100px;
+            outline: none;
         }
     
         }
@@ -146,8 +159,22 @@ $gris: #808080;
 
 
 @media (min-width: 1400px){
+
+aside{
+    display: flex;
+    justify-content: center;
+    
+}
     .contacto{
+      /*   display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; */
         height: 100%;   
+        width: 1180px;
+        margin: 50px 0;
+        
+
         .contacto_container{
             display: flex;
             justify-content: center;
@@ -165,7 +192,7 @@ $gris: #808080;
     }
     
     .contact_form{
-        padding: 30px 50px;
+        padding: 30px 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -291,12 +318,21 @@ $gris: #808080;
     }
     
     .cards_container{
-        width: 1140px;
+        
+        width: 100%;
+
         div{
-            width: 100%;
+
             display: flex;
             flex-direction: row;
-            align-items: center;
+            width: 1250px;
+            justify-content: inherit;
+            gap: 30px;
+
+      
+     
+            
+         
             .contact_cards{
                 width: 360px;
                 height: 177px;

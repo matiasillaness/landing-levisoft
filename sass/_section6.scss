@@ -2,36 +2,87 @@ $azul: #0075FF;
 $gris: #808080;
 
 .section_6{
-    height: 459px;
-    background: linear-gradient(rgba(5, 7, 12, 1), rgba(5, 7, 12,1)),
-    url("../media/technology-users-email-lists.jpg");
+    height: 760px;
+    background-image: url("../media/emile-perron-xrVDYZRGdw4-unsplash.jpg"),
+    linear-gradient(rgba(5, 7, 12, 1), rgba(5, 7, 12,1));
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
+    .frame_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        .frame{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+            border: 2px solid white;
+            width: 338px;
+            height: 613px;
+            text-align: center;
+            padding: 0 18px;
+
+                .titulo_section6{
+                    color: $azul;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-bottom: 30px;
+                }
+                .parrafo_section6{
+                    font-size: 48px;
+                    font-weight: 700;
+                }
+        }
+    }
 }
 
-.frame_wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-.frame{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    border: 3px solid white;
-    width: 368px;
-    height: 409px;
-    text-align: center;
-}
-.titulo_section6{
-    color: $azul;
-    font-size: 17px;
-}
-.parrafo_section6{
-    font-size: 32px;
-    font-weight: 400;
+
+
+
+@media (min-width: 1400px){
+    .section_6{
+        height: 574px;
+        background-image: url("../media/emile-perron-xrVDYZRGdw4-unsplash.jpg"),
+        linear-gradient(rgba(5, 7, 12, 1), rgba(5, 7, 12,1));
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .frame_wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+
+            .frame{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: white;
+                border: 1px solid white;
+                width: 800px;
+                height: 378px;
+                text-align: center;
+                padding: 0;
+
+                    .titulo_section6{
+                        color: $azul;
+                        font-size: 20px;
+                        font-weight: 400;
+                        margin-bottom: 0;
+                        margin-top: 10px;
+                    }
+
+                    .parrafo_section6{
+                        font-size: 48px;
+                        font-weight: 700;
+                        margin: 30px 60px 40px;
+                    }
+            }
+        }
+    } 
 }
