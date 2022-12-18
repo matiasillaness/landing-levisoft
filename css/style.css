@@ -438,27 +438,20 @@
     .projects_container .project {
       display: flex;
       justify-content: center;
-      margin: 50px 0; }
+      margin: 50px 0;
+      overflow: hidden; }
       .projects_container .project .project_image {
         width: 580px;
         height: 363px;
         position: relative;
         box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
-        overflow: hidden; }
-        .projects_container .project .project_image div a {
-          /* background-color: linear-gradient(
-                            0deg, 
-                            rgba(0,0,0,0.5),
-                            rgba(0,0,0,0.5)); */
-          height: 100%;
-          width: 100%; }
-          .projects_container .project .project_image div a .img_proyect {
-            display: block;
-            width: 100%;
-            height: 363px;
-            transition: 0.3s; }
-          .projects_container .project .project_image div a .img_proyect:hover {
-            transform: scale(1.05); }
+        background: url(/media/section5/1.png);
+        background-size: 130%;
+        background-position: center;
+        transition: 0.8s; }
+        .projects_container .project .project_image:hover {
+          background-size: 140%;
+          background-position: center; }
       .projects_container .project .project_content {
         display: flex;
         align-items: center;
@@ -500,33 +493,42 @@
               font-size: 13px; }
   .circle_hover {
     display: flex;
+    background-color: rgba(0, 0, 0, 0.172);
     justify-content: center;
     align-items: center;
-    height: 0%;
-    width: 100%;
-    overflow: hidden;
+    opacity: 1;
+    height: 100%;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
-    /* transition: .5s ease; */
     transition: 0.3s; }
     .circle_hover .hoverr {
       display: flex;
       align-items: center;
       justify-content: center;
       background-color: aquamarine;
-      height: 80px;
-      width: 80px;
-      border-radius: 60px; }
+      opacity: 0;
+      height: 60px;
+      width: 60px;
+      border-radius: 60px;
+      transition: 0.2s; }
       .circle_hover .hoverr p {
-        font-size: 14px;
+        font-size: 10px;
         text-align: center;
         color: black;
         letter-spacing: 3px;
-        font-family: 'Open Sans', sans-serif; }
+        font-family: 'Open Sans', sans-serif;
+        transition: 0.3s; }
   .project_image:hover .circle_hover {
-    height: 100%; }
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0); }
+  .project_image:hover .circle_hover .hoverr {
+    height: 80px;
+    width: 80px;
+    opacity: 1; }
+  .project_image:hover .circle_hover .hoverr p {
+    font-size: 14px; }
   .p2 {
     display: flex;
     flex-direction: row-reverse; } }
