@@ -2,157 +2,178 @@ $azul: #0075FF;
 $gris: #808080;
 
 
-/* *:focus {
-    outline: none;
-}
- */
 
-
-.contacto{
-    height: 100%;   
-}
-.img_contacto{
+aside{
     display: flex;
     justify-content: center;
-    img{
-        width: 340px;
-        height: 340px;
-        margin: 30px 0;
-    }
+    margin: 0;
 }
+    .contacto{
+        height: 80%;   
+        width: 100%;
+        margin: 50px 0;
+        
 
-.contact_form{
-    padding: 0 30px;
-    .text_wrapper{
-        h2{
-            font-size: 27px;
-            color: black;
-            font-family: 'Open Sans', sans-serif;
-            text-align: center;
-            margin: 20px 0;
-        }
-        p{
-            font-size: 16px;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 400;
-            margin: 20px 0;
+        .contacto_container{
+            display: flex;
+            justify-content: center;
         }
     }
-    .inputs_wrapper{
+    
+    .img_contacto{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 627px;
+            height: 625px;
+        }
+    }
+    
+    .contact_form{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        border: none;
-        .input_wrapper{
-        p{
+        vertical-align: center;
+        .text_wrapper{
+            width: 513px;
+            display: flex;
+            flex-direction: column;
             width: 100%;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 400;
-        }
-        input{
-            width: 320px;
-            margin: 15px 0;
-            border: none;
-            border-bottom: 2px solid #afafaf;
-            background-color: transparent;   
-            font-size: 16px;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 400;
-            outline: none;
+            h2{
+                font-size: 25px;
+                color: $azul;
+                font-family: 'Open Sans', sans-serif;
+                text-align: unset;
+                margin: 0;
+                margin-bottom: 20px;
+        
+                text-align: center;
+                line-height: 1.1;
+            }
+            .contact_p{
+                font-size: 16px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+                line-height: 1.7;
+                margin: 0;
+                margin-bottom: 10px;
+                width: 100%;
+                text-align: center;
+                
+            }
+            .contact_p2{
+                width: 80%;
+                margin: 0;
+                font-size: 15px;
+                font-family: 'Open Sans', sans-serif;
+                margin: 20px 0;
             }
         }
-        textarea{
-            width: 320px;
+        .inputs_wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            align-items: center;
             border: none;
-            border-bottom: 2px solid #afafaf;
-            height: 100px;
-            outline: none;
+            margin: 20px 0;
+            .input_wrapper{
+            p{
+                width: 100%;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+            }
+            input{
+                width: 320px;
+                margin: 0;
+                border: 1px solid #afafaf;
+                margin-bottom: 20px;
+                }
+            }
+            textarea{
+                width: 320px;
+                border: 1px solid #afafaf;
+                height: 100px;
+                margin: 0;
+            }
+        
+            }
+        button{
+            cursor: pointer;
+            width: 80%; 
+            height: 65px;
+            border-radius: 6px;
+            border: none;
+            margin: 30px 0;
+            color: white;
+            background-color: $azul;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bolder;
+            box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+            transition: 0.3s;
         }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+    }
     
-        }
-    button{
-        cursor: pointer;
-        width: 320px;
-        height: 65px;
-        border-radius: 6px;
-        border: none;
-        margin: 50px 0;
-        color: white;
-        background-color: $azul;
-        text-align: center;
-        font-size: 20px;
+    ::placeholder{
+        font-size: 16px;
+        padding-left: 15px;
         font-family: 'Open Sans', sans-serif;
-        font-weight: bolder;
-        transition: 0.3s;
+        font-weight: 300;
+        border: none;
     }
-    button:hover{
-        background-color: black;
-        color: white;
+    
+    .input_data{
+        height: 40px;
     }
-}
-
-::placeholder{
-    font-size: 16px;
-    padding-left: 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    border: none;
-}
-
-.input_data{
-    height: 40px;
-}
-
-.input_texto{
-    height: 100px;
-}
+    
+    .input_texto{
+        height: 100px;
+    }
+        
     
 
-.boton_wrapper button{
-    color: white;
-    background-color: #0A0A0A;
-    width: 80px;
-    height: 40px;
-    border: none;
-    font-size: 13px;
-}
-
-.info_container{
-    display: flex;
-}
-
-.info_tipo_container{
-    margin: 0 20px;
-    line-height: 9px;
-}
-
-
-.info_tipo{
-    color: $azul;
-    font-size: 14px;
-}
-.info_parrafo{
-    font-size: 18px;
-
-}
-
-.cards_container{
-    div{
+    .info_container{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        .contact_cards{
-            width: 340px;
-            height: 177px;
-            background-color: $azul;
-            margin: 23px 0;
-        }
+        width: auto; 
+        text-align: start;
     }
-}    
 
+    .data_contact{
+        display: block;
+        width: 100%;
 
+    }
+    
+    .info_tipo_container{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin: 15px 0;
+        line-height:normal;
+        text-align: start;
+    }
+    
+    .info_tipo{
+        color: $azul;
+        font-size: 14px;
+        margin: 0 20px 0 0;
+    }
+    .info_parrafo{
+        font-size: 18px;
+    }
+    .logo_contact{
+        display: flex;
+        font-size: 1.2rem;
+        margin: 0 5px 0 0;
+    }
+    
 
 @media (min-width: 1400px){
 
@@ -160,13 +181,8 @@ aside{
     display: flex;
     justify-content: center;
     margin: 50px 0;
-    
 }
     .contacto{
-      /*   display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center; */
         height: 120%;   
         width: 1180px;
         margin: 50px 0;
@@ -184,12 +200,10 @@ aside{
         img{
             width: 627px;
             height: 625px;
-            /* padding: 30px; */
         }
     }
     
     .contact_form{
-      /*   padding: 30px 20px; */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -198,7 +212,6 @@ aside{
             width: 513px;
             display: flex;
             flex-direction: column;
-            /* align-items: center; */
             h2{
                 font-size: 45px;
                 color: $azul;
@@ -215,8 +228,9 @@ aside{
                 font-weight: 600;
                 line-height: 1.7;
                 margin: 0;
-                margin-bottom: 10px;
+                margin-bottom: 20px;
                 width: 80%;
+                text-align: unset;
                 
             }
             .contact_p2{
@@ -233,6 +247,7 @@ aside{
             justify-content: space-between; 
             align-items: center;
             border: none;
+            margin: 0;  
             .input_wrapper{
             p{
                 width: 100%;
@@ -241,8 +256,9 @@ aside{
             }
             input{
                 width: 413px;
-                margin: 0;
+                margin-bottom: 25px;
                 border: 1px solid #afafaf;
+                
                 }
             }
             textarea{
@@ -304,9 +320,11 @@ aside{
     .data_contact{
         display: flex;
         width: 100%;
+
     }
     
     .info_tipo_container{
+        display: unset;
         margin: 0;
         margin: 0 60px 0 0;
         line-height: 9px;
@@ -316,6 +334,7 @@ aside{
     .info_tipo{
         color: $azul;
         font-size: 14px;
+        margin: 10px 0;
     }
     .info_parrafo{
         font-size: 18px;
