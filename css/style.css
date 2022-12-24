@@ -329,42 +329,42 @@
           font-family: 'Open Sans', sans-serif;
           font-style: italic; } }
 
-.section_5 {
+.section5 {
   height: 100%; }
-  .section_5 div .section5_dos {
+  .section5 div .section__header {
     padding: 0 60px; }
-    .section_5 div .section5_dos h5 {
+    .section5 div .section__header h5 {
       text-align: center;
       color: #0075FF;
       font-size: 18px;
       font-weight: 400;
       margin-top: 60px; }
-    .section_5 div .section5_dos h2 {
+    .section5 div .section__header h2 {
       text-align: center;
       margin: 23px 0;
       font-weight: 700;
       font-size: 30px; }
-  .section_5 div .lista_wrapper {
+  .section5 div .lista_wrapper {
     margin-top: 180px;
     padding: 0 60px; }
-    .section_5 div .lista_wrapper div h1 {
+    .section5 div .lista_wrapper div h1 {
       font-size: 18px;
       font-weight: 400;
       color: #0075FF;
       margin: 0; }
-    .section_5 div .lista_wrapper div h3 {
+    .section5 div .lista_wrapper div h3 {
       font-size: 24px;
       font-weight: 700;
       text-align: start;
       margin-top: 15px; }
-    .section_5 div .lista_wrapper div .lista_section5 {
+    .section5 div .lista_wrapper div .lista_section5 {
       margin-top: 15px; }
-      .section_5 div .lista_wrapper div .lista_section5 li {
+      .section5 div .lista_wrapper div .lista_section5 li {
         line-height: 32px;
         color: #808080;
         font-family: 'Open Sans', sans-serif;
         font-style: italic; }
-    .section_5 div .lista_wrapper .section5_image_container {
+    .section5 div .lista_wrapper .section5_image_container {
       display: flex;
       justify-content: center;
       margin: 100px 0; }
@@ -384,114 +384,124 @@
     background-repeat: no-repeat;
     background-size: cover; */
 @media (min-width: 1400px) {
-  .section_5 {
+  .section5 {
     height: 100%; }
-    .section_5 div {
+    .section5 div {
       margin: 0; }
-      .section_5 div .section5_dos {
+      .section5 div .section__header {
         padding: 0 60px; }
-        .section_5 div .section5_dos h5 {
+        .section5 div .section__header h5 {
           text-align: center;
           color: #0075FF;
           font-size: 18px;
           font-weight: 400;
           margin-top: 60px; }
-        .section_5 div .section5_dos h2 {
+        .section5 div .section__header h2 {
           text-align: center;
           margin: 20px 0 50px 0;
           font-weight: 700;
           font-size: 24px; }
-    .section_5 .lista_wrapper {
+    .section5 .lista_wrapper {
       display: flex;
       justify-content: center;
       margin-top: 0;
       padding: 0;
       height: 100%; }
-      .section_5 .lista_wrapper div {
+      .section5 .lista_wrapper div {
         padding: 0 20px;
         display: flex;
         justify-content: center;
         flex-direction: column; }
-        .section_5 .lista_wrapper div h1 {
+        .section5 .lista_wrapper div h1 {
           font-size: 18px;
           color: #0075FF;
           margin: 0;
           margin-right: 50px; }
-        .section_5 .lista_wrapper div h3 {
+        .section5 .lista_wrapper div h3 {
           font-size: 24px;
           font-weight: 700;
           text-align: start;
           margin-top: 15px; }
-        .section_5 .lista_wrapper div .lista_section5 {
+        .section5 .lista_wrapper div .lista_section5 {
           margin-top: 15px;
           padding-left: 20px; }
-          .section_5 .lista_wrapper div .lista_section5 li {
+          .section5 .lista_wrapper div .lista_section5 li {
             line-height: 32px;
             color: #646464;
             font-family: 'Open Sans', sans-serif;
             font-style: italic; }
-  .projects_container {
+  .projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .projects_container .project {
+    .projects .project {
       display: flex;
       justify-content: center;
       margin: 50px 0;
       overflow: hidden; }
-      .projects_container .project .project_image {
-        width: 580px;
-        height: 363px;
-        position: relative;
-        box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
-        background: url(/media/section5/1.png);
-        background-size: 130%;
-        background-position: center;
-        transition: 0.8s; }
-        .projects_container .project .project_image:hover {
-          background-size: 140%;
-          background-position: center; }
-      .projects_container .project .project_content {
-        display: flex;
-        align-items: center;
-        width: 495px; }
-        .projects_container .project .project_content div {
+    .projects .project__image {
+      width: 580px;
+      height: 363px;
+      position: relative;
+      box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7); }
+    .projects .project__image--first {
+      background: url(/media/section5/1.png);
+      background-size: 130%;
+      background-position: center;
+      transition: 0.8s; }
+      .projects .project__image--first:hover {
+        background-size: 140%;
+        background-position: center; }
+    .projects .project__content {
+      display: flex;
+      align-items: center;
+      width: 495px; }
+      .projects .project__content div {
+        /*   display: flex;
+                        flex-direction: column;
+                        width: 100%; */ }
+        .projects .project__content div .content__header .content__title {
+          margin: 8px 0; }
+        .projects .project__content div .content__header .content__subtitle {
+          margin: 0px 0px 20px;
+          font-size: 25px; }
+        .projects .project__content div .content__header .content__title--end {
           display: flex;
-          flex-direction: column;
-          width: 100%; }
-          .projects_container .project .project_content div div p {
-            display: flex;
-            justify-content: flex-end;
-            margin: 8px 0; }
-          .projects_container .project .project_content div div h3 {
-            display: flex;
-            justify-content: flex-end;
-            margin: 0px 0px 20px;
-            font-size: 25px; }
-          .projects_container .project .project_content div .proyect_desc {
-            background-color: #0075FF;
-            border-radius: 3px;
-            padding: 14px;
-            box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7); }
-            .projects_container .project .project_content div .proyect_desc .parrafo_content {
-              color: white;
-              margin-bottom: 15px;
-              line-height: 25px;
-              text-align: right; }
-          .projects_container .project .project_content div .link_content {
-            display: flex;
-            justify-content: flex-end; }
-          .projects_container .project .project_content div .tech_list {
-            display: flex;
-            justify-content: flex-end;
-            flex-wrap: wrap;
-            list-style: none;
-            margin: 25px 0px 10px; }
-            .projects_container .project .project_content div .tech_list li {
-              margin: 0px 0px 5px 20px;
-              font-size: 13px; }
-  .circle_hover {
+          justify-content: flex-end; }
+        .projects .project__content div .content__header .content__subtitle--end {
+          display: flex;
+          justify-content: flex-end; }
+        .projects .project__content div .proyect__description {
+          background-color: #0075FF;
+          border-radius: 3px;
+          padding: 14px;
+          box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7); }
+          .projects .project__content div .proyect__description .description__paragraph {
+            color: white;
+            margin-bottom: 15px;
+            line-height: 25px; }
+          .projects .project__content div .proyect__description .description__paragraph--end {
+            text-align: right; }
+        .projects .project__content div .proyect__tech-list {
+          display: flex;
+          flex-wrap: wrap;
+          list-style: none; }
+          .projects .project__content div .proyect__tech-list li {
+            margin: 0px 0px 5px 20px;
+            font-size: 13px; }
+        .projects .project__content div .proyect__tech-list--end {
+          justify-content: flex-end;
+          margin: 25px 0px 10px; }
+        .projects .project__content div .proyect__link {
+          color: black;
+          transition: 0.3s; }
+          .projects .project__content div .proyect__link:hover {
+            color: #0075FF; }
+        .projects .project__content div .proyect__link--end {
+          display: flex;
+          justify-content: flex-end; }
+  .project__hover-container {
     display: flex;
     background-color: rgba(0, 0, 0, 0.172);
     justify-content: center;
@@ -503,7 +513,7 @@
     right: 0;
     bottom: 0;
     transition: 0.3s; }
-    .circle_hover .hoverr {
+    .project__hover-container .project__hover {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -513,47 +523,43 @@
       width: 60px;
       border-radius: 60px;
       transition: 0.2s; }
-      .circle_hover .hoverr p {
+      .project__hover-container .project__hover p {
         font-size: 10px;
         text-align: center;
         color: black;
         letter-spacing: 3px;
         font-family: 'Open Sans', sans-serif;
         transition: 0.3s; }
-  .project_image:hover .circle_hover {
+  .project__image:hover .project__hover-container {
     opacity: 1;
     background-color: rgba(0, 0, 0, 0); }
-  .project_image:hover .circle_hover .hoverr {
+  .project__image:hover .project__hover-container .project__hover {
     height: 80px;
     width: 80px;
     opacity: 1; }
-  .project_image:hover .circle_hover .hoverr p {
+  .project__image:hover .project__hover-container .project__hover p {
     font-size: 14px; }
-  .p2 {
-    display: flex;
+  .project--reverse {
     flex-direction: row-reverse; }
-  .project_image2 {
-    width: 580px;
-    height: 363px;
-    position: relative;
-    box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
-    background: url(/media/section5/3.png);
-    background-size: 130%;
-    background-position: center;
-    transition: 0.8s; }
-    .project_image2:hover {
-      background-size: 140%;
-      background-position: center; }
-  .project_image3 {
-    width: 580px;
-    height: 363px;
-    position: relative;
-    box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+    .project--reverse .project__image--second {
+      background: url(/media/section5/3.png);
+      background-size: 130%;
+      background-position: center;
+      transition: 0.8s; }
+      .project--reverse .project__image--second:hover {
+        background-size: 140%;
+        background-position: center; }
+    .project--reverse .description__paragraph--initial {
+      text-align: start; }
+    .project--reverse .proyect__tech-list--start {
+      justify-content: flex-start;
+      margin: 25px -18px 10px; }
+  .project__image--third {
     background: url(/media/section5/2.png);
     background-size: 130%;
     background-position: center;
     transition: 0.8s; }
-    .project_image3:hover {
+    .project__image--third:hover {
       background-size: 140%;
       background-position: center; } }
 

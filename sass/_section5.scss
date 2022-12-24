@@ -1,8 +1,8 @@
-.section_5 {
+.section5 {
     height: 100%;
 
     div {
-        .section5_dos {
+        .section__header {
             padding: 0 60px;
 
             h5 {
@@ -92,13 +92,12 @@
 
 
     @media (min-width: 1400px) {
-        .section_5 {
+        .section5 {
             height: 100%;
-
             div {
                 margin: 0;
 
-                .section5_dos {
+                .section__header {
                     padding: 0 60px;
 
                     h5 {
@@ -162,7 +161,7 @@
             }
         }
 
-        .projects_container {
+        .projects {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -171,82 +170,96 @@
                 display: flex;
                 justify-content: center;
                 margin: 50px 0;
-                overflow: hidden;   
-                .project_image{
+                overflow: hidden;
+            }   
+                .project__image{
                     width: 580px;
                     height: 363px;
                     position: relative;
                     box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
-                    background: url(/media/section5/1.png);
-
-                    background-size: 130%;
-                    background-position: center;
-                    transition: 0.8s;
-                    
+                }
+                    .project__image--first{
+                        background: url(/media/section5/1.png);
+                        background-size: 130%;
+                        background-position: center;
+                        transition: 0.8s;
                     &:hover{
                         background-size: 140%;
                         background-position: center;
                     } 
-                }
+                    }
     
-    
-                .project_content {
+
+                .project__content {
                     display: flex;
                     align-items: center;
                     width: 495px;
                     div {
-                        display: flex;
+                      /*   display: flex;
                         flex-direction: column;
-                        width: 100%;
-                        div {
-                            p {
-                                display: flex;
-                                justify-content: flex-end;
+                        width: 100%; */
+                        .content__header {
+                            .content__title {
                                 margin: 8px 0;
                             }
-                            h3 {
-                                display: flex;
-                                justify-content: flex-end;
+                            .content__subtitle {
                                 margin: 0px 0px 20px;
                                 font-size: 25px;
                             }
+                            .content__title--end{
+                                display: flex;
+                                justify-content: flex-end;
+                            }
+                            .content__subtitle--end{
+                                display: flex;
+                                justify-content: flex-end;
+                            }
                         }
-                        .proyect_desc {
+                        .proyect__description {
                             background-color: $azul;
                             border-radius: 3px;
                             padding: 14px;
                             box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
     
-                            .parrafo_content {
+                            .description__paragraph {
                                 color: white;
                                 margin-bottom: 15px;
                                 line-height: 25px;
+                            }
+                            .description__paragraph--end{
                                 text-align: right;
                             }
                         }
-                        .link_content {
+                        .proyect__tech-list {
                             display: flex;
-                            justify-content: flex-end;
-                        }
-                        .tech_list {
-                            display: flex;
-                            justify-content: flex-end;
                             flex-wrap: wrap;
                             list-style: none;
-                            margin: 25px 0px 10px;
+                            
                             li {
                                 margin: 0px 0px 5px 20px;
                                 font-size: 13px;
                             }
                         }
+                        .proyect__tech-list--end{
+                            justify-content: flex-end;
+                            margin: 25px 0px 10px;
+                        }
+                        .proyect__link {
+                            color: black;
+                            transition: 0.3s;
+                            &:hover{
+                                color: $azul;
+                            }
+                        }
+                        .proyect__link--end{
+                            display: flex;
+                            justify-content: flex-end;
+                        }
                     }
-    
-                }
             }
-    
         }
 
-        .circle_hover{
+        .project__hover-container{
             display: flex;
             background-color: rgba(0, 0, 0, 0.172);
             justify-content: center;
@@ -258,7 +271,7 @@
             right: 0;
             bottom: 0;
             transition: 0.3s;
-                .hoverr{
+                .project__hover{
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -279,57 +292,55 @@
                     
                 }
         }
-        .project_image:hover .circle_hover{
+
+        .project__image:hover .project__hover-container{
             opacity: 1;
             background-color: rgba(0, 0, 0, 0);
         }
         
-        .project_image:hover .circle_hover .hoverr{
+        .project__image:hover .project__hover-container .project__hover{
             height: 80px;
             width: 80px;
             opacity: 1;
         } 
-        .project_image:hover .circle_hover .hoverr p{
+        .project__image:hover .project__hover-container .project__hover p{
             font-size: 14px;
         } 
-        .p2{
-            display: flex;
-            flex-direction: row-reverse;
-        }
+    
 
-
-        .project_image2{
-            width: 580px;
-            height: 363px;
-            position: relative;
-            box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
-            background: url(/media/section5/3.png);
-
-            background-size: 130%;
-            background-position: center;
-            transition: 0.8s;
-            
+        .project--reverse{
+            .project__image--second{
+                background: url(/media/section5/3.png);
+                background-size: 130%;
+                background-position: center;
+                transition: 0.8s;
             &:hover{
                 background-size: 140%;
                 background-position: center;
             } 
+            }
+            flex-direction: row-reverse;
+            .description__paragraph--initial{
+                text-align: start;
+            }
+            .proyect__tech-list--start{
+                justify-content: flex-start;
+                margin: 25px -18px 10px;
+            }
         }
 
-        .project_image3{
-            width: 580px;
-            height: 363px;
-            position: relative;
-            box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+
+        .project__image--third{
             background: url(/media/section5/2.png);
             background-size: 130%;
             background-position: center;
             transition: 0.8s;
-            &:hover{
-                background-size: 140%;
-                background-position: center;
-            } 
+        &:hover{
+            background-size: 140%;
+            background-position: center;
+        } 
         }
-        
+
 
 }
 
