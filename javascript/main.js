@@ -1,31 +1,26 @@
 const boton_menu = document.querySelector(".nav-toggle")
 const navbarMenu = document.querySelector(".nav-menu")
+const header = document.querySelector("header")
+
 
 boton_menu.addEventListener("click", () =>{
     navbarMenu.classList.toggle("nav-menu_visible")
 })
 
 
-/* const slider = document.querySelector("#slider")
-let sliderSection = document.querySelectorAll(".slider_section")
-let sliderSectionLast = sliderSection[sliderSection.length -1];
-
-slider.insertAdjacentElement('afterbegin', sliderSectionLast)
 
 
+window.addEventListener("scroll", () => {
+    console.log(window.scrollY)
 
-function next(){
-    let sliderSectionFirst = document.querySelectorAll(".slider_section")[0]
-    slider.style.marginleft = "-200%";
-    slider.style.transition = "all 1s";
-    setTimeout(function(){
-        slider.style.transition = "none";
-        slider.insertAdjacentElement('beforeend', sliderSectionFirst)
-        slider.style.marginleft = "-100%";
-    }, 1000)
-}
+    if (window.scrollY >= 400){
+        header.classList.add("header-active")
+    }
+    else{
+        header.classList.remove("header-active")
+    }
+})
 
-setInterval(function(){
-    next()
-}, 3000)
-  */
+
+
+console.log(nav)
