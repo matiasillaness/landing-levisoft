@@ -143,7 +143,7 @@ footer {
             p {
                 font-size: 15px;
                 font-weight: 400;
-                margin-bottom: 32px;
+                margin: 0;
             }
         }
     
@@ -152,17 +152,19 @@ footer {
             text-align: left;
             display: grid;
             margin-bottom: 20px;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
             grid-auto-columns: 1fr;
-            gap: 0px 210px;
+            gap: 0px 200px;
             grid-auto-flow: row;
             grid-template-areas:
-                "inicio servicios proyectos contacto"
-                "inicio nosotros  preguntas contacto";
+                "levisoft inicio servicios proyectos contacto"
+                "levisoft inicio nosotros  preguntas contacto";
+            padding-bottom: 80px;
+            border-bottom: 2px solid rgb(168, 168, 168);
 
             div{
-                margin: 5px 0;
+                margin: 0;
             }
             a{
                 font-weight: 400;
@@ -209,6 +211,9 @@ footer {
             margin-top: 20px;
         }
     }
-    
+    .contactoo{
+        display: flex;
+        justify-content: flex-end;
+    }
 
 }
