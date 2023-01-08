@@ -9,7 +9,7 @@ $gris: #808080;
         img{
             width: 100%;
             height: 345px;
-            filter: grayscale(100%);
+            filter: grayscale(40%);
         }
         div{
             display: flex;
@@ -73,6 +73,10 @@ $gris: #808080;
         }
         
     }
+    .section__4--card{
+     width: 80vh;
+     padding-right: 30px;
+    }
 
 
 
@@ -82,3 +86,4 @@ $gris: #808080;
 
 }
 }
+

@@ -111,9 +111,26 @@ h6 {
         background-repeat: no-repeat;
         background-size: cover;
         height: 90vh;
+        
 
         .hero_texto_container {
-            margin: 0 0 50px 30px;
+            margin: 0 0 50px 400px;
+            display: flex;
+            align-items: center;
+            
+           
         }
+    }
+    .slogan {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .slogan_parrafo {
+        font-size: 70px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2;
     }
 }

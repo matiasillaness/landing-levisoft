@@ -196,9 +196,19 @@ footer {
                 height: 32px;
                 border: solid 1px white;
                 border-radius: 400px;
-    
+                transition: ease 0.4s;
+                &:hover{
+                    background-color: rgb(255, 255, 255);
+                    transform: scale(1.1);
+                    i{
+                        color: black;
+                        font-size: 19px;
+                    }
+                }
+
                 i {
                     font-size: 16px;
+
                 }
             }
         }
