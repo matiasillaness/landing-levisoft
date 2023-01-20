@@ -1,9 +1,9 @@
 .header {
   background-color: #1d1d1d;
   color: white;
-  height: 60px;
   position: fixed;
   width: 100%;
+  height: auto;
   /* top: 60px; */
   left: 0;
   z-index: 150;
@@ -548,7 +548,7 @@
   box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
 }
 .projects .project__image--first {
-  background: url(../media/section5/1.png);
+  background: url(/media/section5/1.png);
   background-size: 130%;
   background-position: center;
   transition: 0.8s;
@@ -668,7 +668,7 @@
   flex-direction: row-reverse;
 }
 .project--reverse .project__image--second {
-  background: url(../media/section5/3.png);
+  background: url(/media/section5/3.png);
   background-size: 130%;
   background-position: center;
   transition: 0.8s;
@@ -686,7 +686,7 @@
 }
 
 .project__image--third {
-  background: url(../media/section5/2.png);
+  background: url(/media/section5/2.png);
   background-size: 130%;
   background-position: center;
   transition: 0.8s;
@@ -696,7 +696,7 @@
   background-position: center;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1100px) {
   .section5 {
     height: 100%;
   }
