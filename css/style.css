@@ -459,12 +459,12 @@
     position: relative;
     box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7); }
   .projects .project__image--first {
-    background: url(/media/section5/1.png);
-    background-size: 130%;
+    background: url(/media/section5/Screenshot_4.jpg);
+    background-size: 101%;
     background-position: center;
     transition: 0.8s; }
     .projects .project__image--first:hover {
-      background-size: 140%;
+      background-size: 110%;
       background-position: center; }
   .projects .project__content {
     display: flex;
@@ -556,7 +556,7 @@
 .project--reverse {
   flex-direction: row-reverse; }
   .project--reverse .project__image--second {
-    background: url(/media/section5/3.png);
+    background: url(/media/section5/3.jpg);
     background-size: 130%;
     background-position: center;
     transition: 0.8s; }
@@ -570,7 +570,7 @@
     margin: 25px -18px 10px; }
 
 .project__image--third {
-  background: url(/media/section5/2.png);
+  background: url(/media/section5/2.jpg);
   background-size: 130%;
   background-position: center;
   transition: 0.8s; }
@@ -644,7 +644,6 @@
       position: relative;
       box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7); }
     .projects .project__image--first {
-      background: url(/media/section5/1.png);
       background-size: 130%;
       background-position: center;
       transition: 0.8s; }
@@ -747,7 +746,6 @@
   .project--reverse {
     flex-direction: unset; }
     .project--reverse .project__image--second {
-      background: url(/media/section5/3.png);
       background-size: 130%;
       background-position: center;
       transition: 0.8s; }
@@ -760,7 +758,6 @@
       justify-content: flex-start;
       margin: 25px -18px 10px; }
   .project__image--third {
-    background: url(/media/section5/2.png);
     background-size: 130%;
     background-position: center;
     transition: 0.8s; }

@@ -159,12 +159,12 @@
                 box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
             }
                 .project__image--first{
-                    background: url(/media/section5/1.png);
-                    background-size: 130%;
+                    background: url(/media/section5/Screenshot_4.jpg);
+                    background-size: 101%;
                     background-position: center;
                     transition: 0.8s;
                 &:hover{
-                    background-size: 140%;
+                    background-size: 110%;
                     background-position: center;
                 } 
                 }
@@ -287,7 +287,7 @@
 
     .project--reverse{
         .project__image--second{
-            background: url(/media/section5/3.png);
+            background: url(/media/section5/3.jpg);
             background-size: 130%;
             background-position: center;
             transition: 0.8s;
@@ -308,7 +308,7 @@
 
 
     .project__image--third{
-        background: url(/media/section5/2.png);
+        background: url(/media/section5/2.jpg);
         background-size: 130%;
         background-position: center;
         transition: 0.8s;
@@ -410,7 +410,6 @@
                 box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
             }
                 .project__image--first{
-                    background: url(/media/section5/1.png);
                     background-size: 130%;
                     background-position: center;
                     transition: 0.8s;
@@ -552,7 +551,6 @@
 
     .project--reverse{
         .project__image--second{
-            background: url(/media/section5/3.png);
             background-size: 130%;
             background-position: center;
             transition: 0.8s;
@@ -573,7 +571,6 @@
 
 
     .project__image--third{
-        background: url(/media/section5/2.png);
         background-size: 130%;
         background-position: center;
         transition: 0.8s;
